@@ -1,0 +1,6 @@
+v0.2.5
+- Only modified InputFocusTip and added focus geometry/monitor helpers.
+- Place tooltip at caret X and BELOW focused editable field bottom + 8 pixels.
+- Use UIAutomation focused rectangle and TextPattern2 caret when available.
+- Win32 fallback and monitor clamping; above field near screen bottom.
+- No changes to transliteration or hotkeys. Windows runtime testing pending.
